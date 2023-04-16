@@ -87,7 +87,7 @@ def square(numbers):
     return numbers*numbers
 value=square(6)
 print(value)
-a=66
+a=222
 b=77
 c=a+b
 print(c)
