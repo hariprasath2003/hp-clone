@@ -3,15 +3,15 @@
 numbers=[2,2,4,6,3,4,6,1,30,60,30,60,44,80,44,76]
 duplicate =[]
 for number in numbers:
-if number not in duplicate:
-duplicate.append(number)
+    if number not in duplicate:
+        duplicate.append(number)
 print(duplicate)
 
 numbers=[10,20.36,45,60,75,66]
 max =numbers[0]
 for number in numbers:
-if number > max:
-max = number
+    if number > max:
+        max = number
 print(max)
 
 list=[1,3,5,6,7,8,9,10]
@@ -34,13 +34,13 @@ c=9
 b=q+c
 print(b)
 for i in range(10):
-print(i)
+    print(i**2)
 
 numbers=[2,4,2,6,8,9,0,8,8,89,]
 duplicate=[]
 for i in numbers:
-if i not in duplicate:
-duplicate .append(i)
+    if i not in duplicate:
+        duplicate .append(i)
 print(duplicate)
 phone=input ("phone ")
 digit_mapping={
@@ -51,7 +51,7 @@ digit_mapping={
 }
 output=""
 for ch in phone :
-output+= digit_mapping.get(ch ,"!") +" "
+    output+= digit_mapping.get(ch ,"!") +" "
 print(output)
 
 message=input(">")
@@ -63,10 +63,10 @@ emojis = {
 }
 unique=""
 for word in words:
-unique += emojis. get(word,word) +" "
+    unique += emojis. get(word,word) +" "
 print(unique)
 def my_function():
-print("hi everybody")
+    print("hi everybody")
 print("how Life is a long lesson in humility. - ..")
 print ("hi there")
 my_function()
@@ -84,6 +84,10 @@ time={
 }
 print(time)
 def square(numbers):
-return numbers*numbers
+    return numbers*numbers
 value=square(6)
 print(value)
+a=66
+b=77
+c=a+b
+print(c)
